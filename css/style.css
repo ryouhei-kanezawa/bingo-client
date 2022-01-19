@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+
+.sheet{
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+.sheet tr td{
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+
+.generate-btn {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .generate-btn button {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 280px;
+    color: #333;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #cccccc;
+    box-shadow: 0 5px 0 #aaaaaa;
+    transition: 0.3s;
+  }
+  
+  .generate-btn button:hover {
+    transform: translateY(3px);
+    text-decoration: none;
+    box-shadow: 0 2px 0 #aaaaaa;
+  }
