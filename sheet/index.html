@@ -2,57 +2,60 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BINGO シート生成</title>
+    <link rel="stylesheet" href="C:\xampp\htdocs\tca\20j70013\bingo-client\css\style.css">
 </head>
 <body>
     <header>
         <h1>ビンゴシート</h1>
     </header>
     <main>
-        <table>
-            <tr>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
+        <table class="sheet">
+            <tr id="row1">
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
             </tr>
-            <tr>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
+            <tr id="row2">
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
             </tr>
-            <tr>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
+            <tr id="row3">
+                <td>10</td>
+                <td>10</td>
+                <td></td>
+                <td>10</td>
+                <td>10</td>
             </tr>
-            <tr>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
+            <tr id="row4">
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
             </tr>
-            <tr>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
+            <tr id="row5">
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
             </tr>
         </table>
 
-        <div class="Generate-btn ">
-            <button>シート生成</button>
+        <div class="generate-btn ">
+            <button id='generate-sheet-btn'>シート生成</button>
         </div>
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="C:\xampp\htdocs\tca\20j70013\bingo-client\js\main.js"></script>
 </body>
 </html>
