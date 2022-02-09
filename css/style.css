@@ -46,15 +46,19 @@ h1{
 
 
   .number{
-    font-size: 54px;
+    font-size: 64px;
     font-weight: bold;
     text-align: center;
     margin-top: 40px;
   }
 
-  .post-number{
+  .past-number {
     font-size: 38px;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 68px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+  
+  .past-number li {
+    width: 10%;
   }

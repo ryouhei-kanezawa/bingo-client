@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +7,26 @@
     <title>BINGO 玉</title>
     <link rel="stylesheet" href="C:\xampp\htdocs\tca\20j70013\bingo-client\css\style.css">
 </head>
+
 <body>
     <header>
         <h1>ビンゴ数字</h1>
     </header>
     <main>
         <div class="generate-btn">
-            <button id='generate-number-btn'>玉を出す</button>
+            <button id="put-out-ball">玉を出す</button>
         </div>
 
-        <div class="number">
+        <div id="number" class="number">
             <span>54</span>
         </div>
-
-        <ul class="post-number">
-            <li>10</li>
-            <li>14</li>
-            <li>76</li>
-            <li>11</li>
-            <li>64</li>
-            <li>88</li>
+        
+        <ul id="past-number" class="past-number">
+            
         </ul>
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="C:\xampp\htdocs\tca\20j70013\bingo-client\js\main.js"></script>
 </body>
 </html>

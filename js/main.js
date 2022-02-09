@@ -41,3 +41,15 @@ $('#generate-sheet-btn').on('click',function(){
             console.log(data);
     });
 });
+let exclusion = [];
+$('#put-out-ball').on('click',function(){
+    let url = 'http://localhost:8000/';
+    ajaxWithGenerateSheet({
+        url: url + 'api/number?number=[' + exclusion + ']',
+        type: 'post',
+    }).done(function(data){
+        $('#number span').text(data);
+        $('#past-number').append('<li>' + data);
+        exclusion.push(data);
+    });
+});
